@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Sign In";
+}
+<div class="body">
+    <div class="centered">
+        <h4>Log In</h4>
+    </div>
+    <div class="accountPage">
+        <div>
+            <label for="Username">Username:</label><br>
+            <input type="text" name="Username" />
+        </div>
+
+        <div>
+            <label for="Password">Password:</label><br>
+            <input type="password" name="Password" />
+        </div>
+
+        <button type="submit">Log In</button>
+    </div>
+    <p class="downcenter"><a href="@Url.Action("SignUp", "Account")">Sign Up</a></p>
+</div>

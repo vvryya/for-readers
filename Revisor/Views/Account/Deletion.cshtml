@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Delete Account";
+}
+    <div class="centered">
+        <p>Are you sure you want to delete your account?</p>
+    </div>
+    <form method="post" action="@Url.Action("DeleteAccount", "Account")">
+        <div class="deletePage">
+            <button type="submit">No</button>
+            <button type="submit">Yes</button>
+        </div>
+    </form>

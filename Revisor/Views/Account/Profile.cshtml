@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Profile";
+}
+
+<div class="right-up">
+    <h3>Profile</h3>
+</div>
+
+<div class="middle">
+    <p>Username: user</p>
+    <p>Number of books: 137</p>
+</div>
+
+<div class="passwordChange">
+    <div>
+        <label for="Password">Old password:</label><br>
+        <input type="password" name="oldPassword" />
+    </div>
+
+    <div>
+        <label for="Password">New password:</label><br>
+        <input type="password" name="newPassword" />
+    </div>
+
+    <button type="submit">Confirm</button>
+</div>
+
+<div class="centered">
+    <p class="downcenter"><a href="@Url.Action("Deletion", "Account")">Delete account</a></p>
+</div>

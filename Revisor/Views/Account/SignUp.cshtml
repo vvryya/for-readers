@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Sign In";
+}
+<div class="body">
+    <div class="centered">
+        <h4>Sign Up</h4>
+    </div>
+    <div class="accountCreatePage">
+        <div>
+            <label for="Username">Username:</label><br>
+            <input type="text" name="Username" />
+        </div>
+
+        <div>
+            <label for="Password">Password:</label><br>
+            <input type="password" name="Password" />
+        </div>
+
+        <div>
+            <label for="Password">Confirm your password:</label><br>
+            <input type="password" name="Password" />
+        </div>
+
+        <button type="submit">Finish</button>
+    </div>
+
+    <p class="downcenter"><a href="@Url.Action("Homepage", "BookPages")">Homepage</a></p>
+</div>

@@ -1,0 +1,257 @@
+<link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet' >
+html {
+    font-size: 14px;
+    background-color: #6A7F74;
+    font-family: 'Inter';
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    background-color: #6A7F74;
+    font-family: 'Inter';
+}
+
+header {
+    background-color: #6A7F74;
+    font-family: 'Inter';
+    color: ghostwhite;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #6A7F74;
+    font-family: 'Inter';
+}
+
+
+.centered {
+    font-size: 45px;
+    color: ghostwhite;
+    text-align: center;
+}
+
+.middle {
+    color: ghostwhite;
+    position: absolute;
+    font-size: 20px;
+    top: 80px;
+    right: 65px;
+    text-align: left;
+    top: 15%;
+    width: 80%;
+}
+
+.right-up {
+    font-size: 23px;
+    color: ghostwhite;
+    position: absolute;
+    top: 80px;
+    right: 65px;
+    text-align: right;
+}
+
+.right-down {
+    font-size: 15px;
+    color: ghostwhite;
+    position: absolute;
+    top: 80%;
+    right: 5%;
+    width: 60px;
+    text-align: right;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: ghostwhite;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.about0 {
+    position: absolute;
+    background-color: #4A5B52;
+    color: ghostwhite;
+    width: 350px;
+    height: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin-right: 300px;
+    top: 35%;
+    left: 20%;
+}
+
+.about1 {
+    position: absolute;
+    background-color: #4A5B52;
+    color: ghostwhite;
+    width: 350px;
+    height: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin-right: 300px;
+    top: 35%;
+    left: 55%;
+}
+
+.accountPage {
+    position: absolute;
+    background-color: #4A5B52;
+    color: ghostwhite;
+    font-size: 18px;
+    font-weight: 100;
+    width: 350px;
+    height: 250px;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.accountPage input {
+    width: 100%; 
+    height: 50px;
+    font-size: 16px;
+}
+
+.accountPage button {
+    font-size: 15px;
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.downcenter {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 500px;
+}
+
+.accountCreatePage {
+    position: absolute;
+    background-color: #4A5B52;
+    color: ghostwhite;
+    font-size: 18px;
+    font-weight: 100;
+    width: 350px;
+    height: 380px;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.accountCreatePage input {
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+}
+
+.accountCreatePage button {
+    font-size: 15px;
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.option0 {
+    position: absolute;
+    background-color: #4A5B52;
+    font-size: 40px;
+    text-align: center;
+    color: ghostwhite;
+    width: 350px;
+    height: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 65px;
+    margin-right: 300px;
+    top: 35%;
+    left: 20%;
+}
+
+.option1 {
+    position: absolute;
+    background-color: #4A5B52;
+    font-size: 40px;
+    text-align: center;
+    color: ghostwhite;
+    width: 350px;
+    height: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 65px;
+    margin-right: 300px;
+    top: 35%;
+    left: 55%;
+}
+.passwordChange {
+    position: absolute;
+    background-color: #4A5B52;
+    color: ghostwhite;
+    font-size: 18px;
+    font-weight: 100;
+    width: 350px;
+    height: 250px;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.passwordChange input {
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+}
+
+.passwordChange button {
+    font-size: 15px;
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.deletePage button {
+    font-size: 15px;
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    background-color: #4A5B52;
+    color: ghostwhite;
+}
+.deletePage button:first-child {
+    bottom: 50%;
+}
+
+.deletePage button:last-child {
+    bottom: 15%;
+}
