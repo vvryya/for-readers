@@ -1,4 +1,9 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Revisor.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<RevisorContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("RevisorContext") ?? throw new InvalidOperationException("Connection string 'RevisorContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
